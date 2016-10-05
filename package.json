@@ -1,0 +1,30 @@
+{
+  "name": "express-graphql-sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node ./dist/index.js",
+    "build": "./node_modules/.bin/babel src --out-dir ./dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salman Mitha",
+  "license": "MIT",
+  "dependencies": {
+    "dataloader": "1.2.0",
+    "express": "4.13.4",
+    "express-graphql": "0.5.1",
+    "graphql": "0.5.0",
+    "graphql-relay": "0.4.0",
+    "node-fetch": "1.5.1",
+    "nodemon": "1.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.7.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-preset-node5": "^11.1.0",
+    "babel-preset-stage-0": "6.5.0"
+  }
+}
